@@ -94,6 +94,12 @@
             font-size: 1.2rem;
             color: #d4a853;
         }
+        .links a.delete-link:hover {
+            border-color: #e74c3c;
+        }
+        .links a.delete-link .arrow {
+            color: #e74c3c;
+        }
         .footer {
             margin-top: 48px;
             font-size: 0.8rem;
@@ -118,12 +124,16 @@
         <h2>Legal Documents</h2>
 
         <div class="links">
-            <a href="/privacy-policy.html">
+            <a href="privacy-policy.html">
                 <span>&#128274; Privacy Policy</span>
                 <span class="arrow">&rarr;</span>
             </a>
-            <a href="/terms-of-service.html">
+            <a href="terms-of-service.html">
                 <span>&#128220; Terms of Service</span>
+                <span class="arrow">&rarr;</span>
+            </a>
+            <a href="delete-account.html" class="delete-link">
+                <span>&#128465; Delete Account</span>
                 <span class="arrow">&rarr;</span>
             </a>
         </div>
